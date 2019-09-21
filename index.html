@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Arkanoid</title>
+  <style>
+    body {background-color: black;}
+  </style>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>  
+
+  <input type=button id="musicBtn"></input>
+  <input type=button id="soundBtn"></input>
+
+  <p style="color: white;">Включите музыку и звуки</p>
+  <p style="color: white;">Управление:<br/>Движение платформы - стрелки влево/вправо<br/>
+    Пауза/снятие с паузы - Esc<br/>Запуск мяча - пробел</p>
+  
+  <audio src="sounds/MachinaeSupremacy_Death_From_Above.mp3" id="track2"></audio>
+  <audio src="sounds/Psybolord_Ocean_View.mp3" id="track1"></audio>  
+  <audio src="sounds/Eluveitie_Setlon.mp3" id="track3"></audio>  
+  
+  <audio src="sounds/pick_up_booster.wav" id="pick_up_booster"></audio>
+  <audio src="sounds/victory_final.mp3" id="victory_final"></audio>
+  <audio src="sounds/hit_platform.wav" id="hit_platform"></audio>
+  <audio src="sounds/loose_ball.wav" id="loose_ball"></audio>
+  <audio src="sounds/explosion.wav" id="explosion"></audio>
+  <audio src="sounds/teleport.wav" id="teleport"></audio>
+  <audio src="sounds/hit_all.mp3" id="hit_all"></audio>
+  <audio src="sounds/victory.mp3" id="victory"></audio>
+  <audio src="sounds/loose.mp3" id="loose"></audio>
+  <audio src="sounds/shot.wav" id="shot"></audio>
+
+  <script type="text/javascript" src="A_assets.js"></script>
+  <script type="text/javascript" src="A_main.js"></script>
+  <script type="text/javascript" src="A_ball.js"></script>
+  <script type="text/javascript" src="A_platform.js"></script>
+  <script type="text/javascript" src="A_levels.js"></script>
+  <script type="text/javascript" src="A_powerups.js"></script>
+  <script type="text/javascript" src="A_blocks.js"></script>
+
+</body>
